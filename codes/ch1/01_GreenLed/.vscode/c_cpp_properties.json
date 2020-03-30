@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**",           
+                "D:/Keil_v5/ARM/ARMCC/include/**",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${workspaceRoot}/.vscode/.browse.c_cpp.db",
+                "path": [
+                    "D:/Keil_v5/ARM/ARMCC/include/**",
+                    "${workspaceFolder}/**",
+                    ""
+                ]
+            },
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__CC_ARM",
+                "USE_HAL_DRIVER",
+                "STM32L431xx",
+                ""
+            ],
+            "compilerPath": "D:\\LLVM\\bin\\clang.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
